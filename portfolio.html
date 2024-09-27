@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- or -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-K8FaWsdleLxgE4Y8k1zpCUPJqyI2ZbEX0dyXrELyiqvOFea02Bw6duAZ5RqEF4/tb1Zr+x+jvda0Iy4NqF3fMg=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Youssef</title>
+  </head>
+  <body>
+    <!--------------------------- Header --------------------------------------->
+    <header>
+      <div class="circle_header"></div>
+      <div class="avatar">
+        <img src="imgs/3.webp" alt="avatar" />
+        <h4>YOUSSEF</h4>
+      </div>
+      <nav>
+        <ul id="nav">
+          <li>
+            <a href="index.html" class="active"
+              ><i class="ri-home-4-line"></i>HOME</a
+            >
+          </li>
+          <li>
+            <a href="index.html"><i class="ri-user-3-line"></i>ABOUT ME</a>
+          </li>
+          <li>
+            <a href="index.html"><i class="ri-briefcase-line"></i>SERVICES</a>
+          </li>
+          <li>
+            <a href="index.html"><i class="ri-folder-line"></i>PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="index.html"
+              ><i class="ri-contacts-book-line"></i>CONTACT</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="social_media">
+        <a href="https://www.facebook.com/youssef.ababou.71"
+          ><i class="ri-facebook-fill"></i
+        ></a>
+        <a href="https://www.instagram.com/3b_youssef/"
+          ><i class="ri-instagram-line"></i
+        ></a>
+        <a href="https://twitter.com/youssef3b07"
+          ><i class="ri-twitter-line"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/youssef-ababou-08475a220/"
+          ><i class="ri-linkedin-fill"></i
+        ></a>
+        <a href="https://github.com/Youssef3B"
+          ><i class="ri-github-line"></i
+        ></a>
+      </div>
+    </header>
+    <section class="up">
+      <i id="dark-mode" class="fa-solid fa-moon"></i>
+      <div>
+        <i id="ballon" class="bx bxs-balloon"></i>
+        <div id="bgcolors" class="bg-colors">
+          <div id="red" class="red"></div>
+          <div id="blue" class="blue"></div>
+          <div id="green" class="green"></div>
+          <div id="orange" class="orange"></div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------------------------------Portfolio----------------------------------------------------------------->
+
+    <section id="portfolio2" class="portfolio">
+      <h2 data-aos="fade-right">Portfolio</h2>
+      <div class="line"></div>
+
+      <div class="container">
+        <div class="cards" onclick="openModal(1)">
+          <img src="projects/8.jpg" alt="" />
+          <div class="overlay">
+            <h3>Freelance Web Site</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(2)">
+          <img src="projects/1.jpg" alt="" />
+          <div class="overlay">
+            <h3>Web site with tailwind css</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+
+        <div class="cards" onclick="openModal(3)">
+          <img src="projects/22.jpg" alt="" />
+          <div class="overlay">
+            <h3>Swipy</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(4)">
+          <img src="projects/21.jpg" alt="" />
+          <div class="overlay">
+            <h3>Rework Web Site</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(5)">
+          <img src="projects/20.jpg" alt="" />
+          <div class="overlay">
+            <h3>Portfolio With React Js And FireBase</h3>
+            <p>Dynamic Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(6)">
+          <img src="projects/19.jpg" alt="" />
+          <div class="overlay">
+            <h3>Flex it</h3>
+            <p>Static web site</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(7)">
+          <img src="projects/13.jpg" alt="" />
+          <div class="overlay">
+            <h3>E-commerce Web Site</h3>
+            <p>Static web site</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(8)">
+          <img src="projects/16.jpg" alt="" />
+          <div class="overlay">
+            <h3>Photographer Web Site</h3>
+            <p>Static web site</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(9)">
+          <img src="projects/17.jpg" alt="" />
+          <div class="overlay">
+            <h3>Rework Trello</h3>
+            <p>Static web site</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(23)">
+          <img src="projects/23.jpg" alt="" />
+          <div class="overlay">
+            <h3>Football Chat</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(24)">
+          <img src="projects/24.jpg" alt="" />
+          <div class="overlay">
+            <h3>Mediora Agency</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(25)">
+          <img src="projects/25.jpg" alt="" />
+          <div class="overlay">
+            <h3>Movix App</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(26)">
+          <img src="projects/26.jpg" alt="" />
+          <div class="overlay">
+            <h3>Nsplity</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(27)">
+          <img src="projects/27.jpg" alt="" />
+          <div class="overlay">
+            <h3>Kayley Consulting</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(28)">
+          <img src="projects/28.jpg" alt="" />
+          <div class="overlay">
+            <h3>Far Away</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(29)">
+          <img src="projects/29.jpg" alt="" />
+          <div class="overlay">
+            <h3>Dashboard Mediora</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(30)">
+          <img src="projects/30.jpg" alt="" />
+          <div class="overlay">
+            <h3>Pizza Oredring App</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(31)">
+          <img src="projects/31.jpg" alt="" />
+          <div class="overlay">
+            <h3>Power Fleet</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(32)">
+          <img src="projects/32.jpg" alt="" />
+          <div class="overlay">
+            <h3>Kesbah Cafe</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(10)">
+          <img src="projects/2.jpg" alt="" />
+          <div class="overlay">
+            <h3>Image editor</h3>
+            <p>app</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(11)">
+          <img src="projects/3.jpg" alt="" />
+          <div class="overlay">
+            <h3>words game</h3>
+            <p>app</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(12)">
+          <img src="projects/4.jpg" alt="" />
+          <div class="overlay">
+            <h3>tic tac toe game with ai</h3>
+            <p>app</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(13)">
+          <img src="projects/5.jpg" alt="" />
+          <div class="overlay">
+            <h3>rock paper scissors Game</h3>
+            <p>app</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(14)">
+          <img src="projects/6.jpg" alt="" />
+          <div class="overlay">
+            <h3>Memory Game</h3>
+            <p>app</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(15)">
+          <img src="projects/7.jpg" alt="" />
+          <div class="overlay">
+            <h3>Quiz Game</h3>
+            <p>app</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(16)">
+          <img src="projects/9.jpg" alt="" />
+          <div class="overlay">
+            <h3>To Uppercase or to lower case</h3>
+            <p>app</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(17)">
+          <img src="projects/10.jpg" alt="" />
+          <div class="overlay">
+            <h3>CRUD</h3>
+            <p>app</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(18)">
+          <img src="projects/11.jpg" alt="" />
+          <div class="overlay">
+            <h3>Country Api</h3>
+            <p>app</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(19)">
+          <img src="projects/12.jpg" alt="" />
+          <div class="overlay">
+            <h3>Random Memes</h3>
+            <p>App</p>
+          </div>
+        </div>
+
+        <div class="cards" onclick="openModal(22)">
+          <img src="projects/18.jpg" alt="" />
+          <div class="overlay">
+            <h3>san fransisco</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="myModal" class="modal">
+        <div id="content" class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <img id="modalImage" src="" alt="" />
+          <div class="content-info">
+            <p id="modalTitle">Title Work:</p>
+            <p id="modalDescription">Description of this Work:</p>
+            <button id="modalButton" onclick="openLink()">See The Work</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------- Header-mobile --------------------------------------->
+
+    <menu class="header-mobile">
+      <ul>
+        <li>
+          <a href="index.html" class="active"
+            ><i class="ri-home-4-line"></i>HOME</a
+          >
+        </li>
+        <li>
+          <a href="index.html"><i class="ri-user-3-line"></i>ABOUT ME</a>
+        </li>
+        <li>
+          <a href="index.html"><i class="ri-briefcase-line"></i>SERVICES</a>
+        </li>
+        <li>
+          <a href="index.html"><i class="ri-folder-line"></i>PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="index.html"><i class="ri-contacts-book-line"></i>CONTACT</a>
+        </li>
+      </ul>
+    </menu>
+
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/55fb3991e6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

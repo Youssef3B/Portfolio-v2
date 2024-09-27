@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- or -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-K8FaWsdleLxgE4Y8k1zpCUPJqyI2ZbEX0dyXrELyiqvOFea02Bw6duAZ5RqEF4/tb1Zr+x+jvda0Iy4NqF3fMg=="
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Youssef</title>
+  </head>
+  <body>
+    <!--------------------------- Header --------------------------------------->
+    <header>
+      <div class="circle_header"></div>
+      <div class="avatar">
+        <img src="imgs/3.webp" alt="avatar" />
+        <h4>YOUSSEF</h4>
+      </div>
+      <nav>
+        <ul id="nav">
+          <li>
+            <a href="#home" class="active"
+              ><i class="ri-home-4-line"></i>HOME</a
+            >
+          </li>
+          <li>
+            <a href="#aboutme"><i class="ri-user-3-line"></i>ABOUT ME</a>
+          </li>
+          <li>
+            <a href="#services"><i class="ri-briefcase-line"></i>SERVICES</a>
+          </li>
+          <li>
+            <a href="#portfolio"><i class="ri-folder-line"></i>PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="ri-contacts-book-line"></i>CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="social_media">
+        <a href="https://www.facebook.com/youssef.ababou.71" target="_blank"
+          ><i class="ri-facebook-fill"></i
+        ></a>
+        <a href="https://www.instagram.com/3b_youssef/" target="_blank"
+          ><i class="ri-instagram-line"></i
+        ></a>
+        <a href="https://twitter.com/youssef3b07" target="_blank"
+          ><i class="ri-twitter-line"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/youssef-ababou-08475a220/"
+          target="_blank"
+          ><i class="ri-linkedin-fill"></i
+        ></a>
+        <a href="https://github.com/Youssef3B" target="_blank"
+          ><i class="ri-github-line"></i
+        ></a>
+      </div>
+    </header>
+
+    <!--------------------------- Hero-Section --------------------------------------->
+
+    <div id="particles-js"></div>
+    <section class="up">
+      <i id="dark-mode" class="fa-solid fa-moon"></i>
+      <div>
+        <i id="ballon" class="bx bxs-balloon"></i>
+        <div id="bgcolors" class="bg-colors">
+          <div id="blue" class="color-option blue"></div>
+          <div id="red" class="color-option red"></div>
+          <div id="green" class="color-option green"></div>
+          <div id="orange" class="color-option orange"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="home" class="hero-section">
+      <div class="left">
+        <h3 data-aos="fade-right">Hello, I am</h3>
+        <h1 data-aos="fade-right">Youssef Ababou</h1>
+        <h5 data-aos="fade-up">I Am Passionate Web Developer</h5>
+        <p data-aos="fade-up">
+          I specialize in crafting sleek and contemporary websites, web
+          applications, and e-commerce platforms to cater to clients of various
+          scales. My expertise lies in designing and developing web solutions
+          that cater to the unique needs and preferences of each customer..
+        </p>
+        <button id="download" data-aos="zoom-in">Download CV</button>
+      </div>
+      <div class="right">
+        <img id="avatar" data-aos="zoom-in" src="imgs/home.png" alt="" />
+      </div>
+    </section>
+
+    <!--------------------------- About Me --------------------------------------->
+
+    <section id="aboutme" class="about-me">
+      <div class="left">
+        <img data-aos="flip-up" src="imgs/about.png" alt="" />
+      </div>
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h2>ABOUT ME.</h2>
+        <div class="line"></div>
+        <h3>
+          I'm a Freelancer Full-Stack Web Developer with over 2 years of
+          experience.
+        </h3>
+        <p>
+          I'm a Freelancer Full-Stack Web Developer with over 2 years of
+          experience. I'm from Morocco. I code and create web elements for
+          amazing people around the world. I like work with new people. New
+          people new Experiences.
+        </p>
+        <div>
+          <button>Contact Me</button>
+          <button>Portfolio</button>
+        </div>
+      </div>
+    </section>
+    <!--------------------------- Etudiant --------------------------------------->
+
+    <section class="etudiant">
+      <h2>EDUCATION</h2>
+      <div class="line"></div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="cards"
+      >
+        <div class="left">
+          <img src="imgs/wizara.jpeg" alt="" />
+        </div>
+        <div class="right">
+          <h3>BACCALAURÉAT SCIENCE DE LA VIE ET DE LA TERRE</h3>
+          <h6>2018-2019</h6>
+          <p>
+            I obtained my baccalaureate degree in 2019 from Ibn Toumert School,
+            specializing in the science stream with a focus on Life and Earth
+            Sciences (SVT).
+          </p>
+        </div>
+      </div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="cards"
+      >
+        <div class="left">
+          <img src="imgs/excel.png" alt="" />
+        </div>
+        <div class="right">
+          <h3>TECHNICIEN SPÉCIALISÉ EN DÉVELOPPEMENT MULTIMÉDIA</h3>
+          <h6>2019-2021</h6>
+          <p>
+            In the years 2019-2021, I successfully completed my specialized
+            technician diploma in Multimedia Development at Institut Excel
+            Marrakech. This comprehensive program equipped me with the necessary
+            skills and knowledge to excel in the field of multimedia
+            development. Throughout my studies, I gained expertise in various
+            areas such as web design, graphic design, animation, and interactive
+            media. This diploma has prepared me to effectively create engaging
+            and visually appealing digital experiences across different
+            platforms.
+          </p>
+        </div>
+      </div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="cards"
+      >
+        <div class="left">
+          <img src="imgs/3w.jpg" alt="" />
+        </div>
+        <div class="right">
+          <h3>Bootcamp Full-Stack Web Developer</h3>
+          <h6>2022-2023</h6>
+          <p>
+            During the period of 2022-2023, I participated in an intensive
+            bootcamp in Rabat to enhance my skills as a full-stack web
+            developer. The bootcamp focused on equipping me with the knowledge
+            and expertise to develop robust web applications. Throughout the
+            program, I gained proficiency in React.js, a popular JavaScript
+            library for building user interfaces, as well as PHP Laravel, a
+            powerful framework for developing web applications.
+          </p>
+        </div>
+      </div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="cards"
+      >
+        <div class="left">
+          <img src="imgs/job in tech.jpeg" alt="" />
+        </div>
+        <div class="right">
+          <h3>Bootcamp Full-Stack Mern Developer</h3>
+          <h6>2024</h6>
+          <p>
+            During my time at the Arkx Talent Factory bootcamp, I learned the
+            MERN stack (MongoDB, Express.js, React.js, Node.js) and applied
+            these technologies in various full-stack web development projects.
+            The bootcamp was highly practical and focused on real-world
+            application, where I developed dynamic, responsive web applications.
+            I gained hands-on experience in both front-end and back-end
+            development, database management, and API integration. This
+            intensive training helped me strengthen my skills in building
+            scalable web solutions, improving my problem-solving abilities, and
+            becoming proficient in modern web technologies.
+          </p>
+        </div>
+      </div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="cards"
+      >
+        <div class="left">
+          <img src="imgs/est.jpeg" alt="" />
+        </div>
+        <div class="right">
+          <h3>
+            LUS – Ingénierie Informatique en Infrastructure Digitale et
+            Développement Full Stack
+          </h3>
+          <h6>2024-2025</h6>
+          <p>
+            I am studying for a University Specialized License (LUS) in
+            "Computer Engineering in Digital Infrastructure and Full Stack
+            Development." This program is designed to equip me with the skills
+            to design, develop, and manage innovative and intelligent solutions
+            in software engineering and network administration, particularly
+            focusing on applications for connected devices.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------- Experience --------------------------------------->
+    <section class="etudiant">
+      <h2>EXPERIENCE</h2>
+      <div class="line"></div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="cards"
+      >
+        <div class="left">
+          <img src="imgs/integral_progress_technology_logo.jpeg" alt="" />
+        </div>
+        <div class="right">
+          <h3>Full-stack Developer</h3>
+          <h3>INTEGRAL PROGRESS TECHNOLOGY</h3>
+          <h6>May 2023 - Jun 2023 ·</h6>
+          <p>
+            I developed a comprehensive dashboard using Laravel to monitor and
+            manage customer payments. The dashboard includes features like
+            payment history tracking, real-time updates on payment statuses, and
+            filtering options for viewing payments by date, customer, or payment
+            method. Additionally, it provides insights and analytics, such as
+            total revenue generated and overdue payments, to help users make
+            informed financial decisions. The system ensures data accuracy,
+            security, and a user-friendly interface for both administrators and
+            customers.
+          </p>
+        </div>
+      </div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="cards"
+      >
+        <div class="left">
+          <img src="imgs/mediora_agency_logo.jpeg" alt="" />
+        </div>
+        <div class="right">
+          <h3>Développeur web</h3>
+          <h3>Mediora Agency</h3>
+          <h6>Sep 2023 - Nov 2023</h6>
+          <p>
+            I developed a dynamic website for Mediora using React.js,
+            incorporating interactive features and ensuring a responsive,
+            user-friendly experience. Additionally, I created a static website
+            for Kayley Consulting, focusing on delivering a clean, professional
+            design optimized for speed and mobile responsiveness.
+          </p>
+        </div>
+      </div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="cards"
+      >
+        <div class="left">
+          <img src="imgs/eureka_creation_marrakech_logo.jpeg" alt="" />
+        </div>
+        <div class="right">
+          <h3>Eurika Digital</h3>
+          <h3>Back End Developer</h3>
+          <h6>Dec 2023 - Dec 2023</h6>
+          <p>
+            I transformed a static website into a dynamic one using the Laravel
+            framework, adding interactive features and enhancing functionality.
+            I also developed a dashboard to track customer payments, providing
+            real-time updates and detailed payment history management.
+          </p>
+        </div>
+      </div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="cards"
+      >
+        <div class="left">
+          <img src="imgs/arkx_education_logo.jpeg" alt="" />
+        </div>
+        <div class="right">
+          <h3>Full-stack Developer</h3>
+          <h3>ARK-X Talent Factory</h3>
+          <h6>Feb 2024 - Jun 2024</h6>
+          <p>
+            I completed an intensive 4-month internship in MERN (MongoDB,
+            Express, React, Node.js), working on projects that simulated real
+            industry scenarios under the guidance of a technical and career
+            mentor. This experience enhanced my skills in problem-solving,
+            collaboration, and adaptability.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------Skills-------------------------------------------->
+    <section class="skills">
+      <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Skills</h2>
+      <div
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        class="line"
+      ></div>
+      <h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        My skills
+      </h4>
+      <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        Over the past three years, I have dedicated myself to continuous
+        learning and skill development. I am proud to have acquired a diverse
+        set of valuable skills that enable me to thrive in various professional
+        endeavors. Some of my key skills include:
+      </p>
+      <div class="skills-container">
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-html5"></i>
+          <h6>Html</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-css3"></i>
+          <h6>Css</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-typescript"></i>
+          <h6>Javascript</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-postgresql"></i>
+          <h6>TypeScript</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-jquery"></i>
+          <h6>jquery</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-bootstrap"></i>
+          <h6>Bootstrap</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-tailwind-css"></i>
+          <h6>Tailwindcss</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-react"></i>
+          <h6>React</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-php"></i>
+          <h6>Php</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="fa-brands fa-laravel"></i>
+          <h6>Laravel</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-wordpress"></i>
+          <h6>Wordpress</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-figma"></i>
+          <h6>Figma</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-mongodb"></i>
+          <h6>MongoDB</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-nodejs"></i>
+          <h6>NodeJs</h6>
+        </div>
+        <div data-aos="flip-left" class="bg-icone">
+          <i class="bx bxl-postgresql"></i>
+          <h6>MySql</h6>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------WHAT I DO?------------------------------------------->
+
+    <section id="services" class="what-i-do">
+      <h2 data-aos="fade-right">WHAT I DO?</h2>
+      <div class="line"></div>
+      <div class="container">
+        <div data-aos="zoom-in-right" class="cards">
+          <div class="left">
+            <i class="bx bx-laptop"></i>
+          </div>
+          <div class="right">
+            <h3>Web Design</h3>
+            <p>
+              I create captivating, user-friendly websites with stunning
+              designs.
+            </p>
+          </div>
+        </div>
+        <div data-aos="zoom-in-left" class="cards">
+          <div class="left">
+            <i class="bx bx-code-alt"></i>
+          </div>
+          <div class="right">
+            <h3>Web Development</h3>
+            <p>
+              I develop dynamic web applications with clean code, seamless
+              interfaces, and robust back-end systems.
+            </p>
+          </div>
+        </div>
+        <div data-aos="zoom-in-right" class="cards">
+          <div class="left">
+            <i class="fa-solid fa-crop-simple"></i>
+          </div>
+          <div class="right">
+            <h3>Grapghic design</h3>
+            <p>
+              I bring ideas to life with visually striking graphics for logos,
+              marketing materials, and social media.
+            </p>
+          </div>
+        </div>
+        <div data-aos="zoom-in-left" class="cards">
+          <div class="left">
+            <i class="fa-solid fa-film"></i>
+          </div>
+          <div class="right">
+            <h3>Video Editing</h3>
+            <p>
+              I transform raw footage into polished, compelling videos that tell
+              a story.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----------------------------------------------------Portfolio----------------------------------------------------------------->
+
+    <section id="portfolio" class="portfolio">
+      <h2 data-aos="fade-right">Portfolio</h2>
+      <div class="line"></div>
+
+      <div class="container">
+        <div class="cards" onclick="openModal(1)">
+          <img src="projects/8.jpg" alt="" />
+          <div class="overlay">
+            <h3>Freelance Web Site</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(2)">
+          <img src="projects/1.jpg" alt="" />
+          <div class="overlay">
+            <h3>Web site with tailwind css</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+
+        <div class="cards" onclick="openModal(3)">
+          <img src="projects/22.jpg" alt="" />
+          <div class="overlay">
+            <h3>Swipy</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(4)">
+          <img src="projects/21.jpg" alt="" />
+          <div class="overlay">
+            <h3>Rework Web Site</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(5)">
+          <img src="projects/20.jpg" alt="" />
+          <div class="overlay">
+            <h3>Portfolio With React Js And FireBase</h3>
+            <p>Dynamic Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(6)">
+          <img src="projects/19.jpg" alt="" />
+          <div class="overlay">
+            <h3>Flex it</h3>
+            <p>Static web site</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(7)">
+          <img src="projects/13.jpg" alt="" />
+          <div class="overlay">
+            <h3>E-commerce Web Site</h3>
+            <p>Dynamic Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(8)">
+          <img src="projects/16.jpg" alt="" />
+          <div class="overlay">
+            <h3>E-commerce Web Site</h3>
+            <p>Dynamic Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(9)">
+          <img src="projects/17.jpg" alt="" />
+          <div class="overlay">
+            <h3>E-commerce Web Site</h3>
+            <p>Dynamic Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(23)">
+          <img src="projects/23.jpg" alt="" />
+          <div class="overlay">
+            <h3>Football Chat</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(24)">
+          <img src="projects/24.jpg" alt="" />
+          <div class="overlay">
+            <h3>Mediora Agency</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(25)">
+          <img src="projects/25.jpg" alt="" />
+          <div class="overlay">
+            <h3>Movix App</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(26)">
+          <img src="projects/26.jpg" alt="" />
+          <div class="overlay">
+            <h3>Nsplity</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(27)">
+          <img src="projects/27.jpg" alt="" />
+          <div class="overlay">
+            <h3>Kayley Consulting</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(28)">
+          <img src="projects/28.jpg" alt="" />
+          <div class="overlay">
+            <h3>Far Away</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(29)">
+          <img src="projects/29.jpg" alt="" />
+          <div class="overlay">
+            <h3>Dashboard Mediora</h3>
+            <p>Static Website</p>
+          </div>
+        </div>
+        <div class="cards" onclick="openModal(30)">
+            <img src="projects/30.jpg" alt="" />
+            <div class="overlay">
+              <h3>Pizza Oredring App</h3>
+              <p>Static Website</p>
+            </div>
+          </div>
+        <div class="cards" onclick="openModal(31)">
+            <img src="projects/31.jpg" alt="" />
+            <div class="overlay">
+              <h3>Power Fleet</h3>
+              <p>Static Website</p>
+            </div>
+          </div>
+        <div class="cards" onclick="openModal(32)">
+            <img src="projects/32.jpg" alt="" />
+            <div class="overlay">
+              <h3>Kesbah Cafe</h3>
+              <p>Static Website</p>
+            </div>
+          </div>
+      </div>
+       
+      </div>
+      
+
+      <div id="myModal" class="modal">
+        <div id="content" class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <img id="modalImage" src="" alt="" />
+          <div class="content-info">
+            <p id="modalTitle">Title Work:</p>
+            <p id="modalDescription">Description of this Work:</p>
+            <button id="modalButton" onclick="openLink()">See The Work</button>
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-down" class="see-more">
+        <a href="portfolio.html">see more</a>
+      </div>
+    </section>
+
+
+        <!-----------------------------------------------------Portfolio - Videos----------------------------------------------------------------->
+
+        <section id="portfolio" class="portfolio">
+            <h2 data-aos="fade-right">Portfolio-Videos</h2>
+            <div class="line"></div>
+      
+            <div class="container">
+              <div class="cards" >
+                <iframe width="100%" height="315"
+                src="https://www.youtube.com/embed/Isobb_icQis"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        
+                
+              </div>
+              <div class="cards" >
+                <iframe width="100%" height="315"
+                src="https://www.youtube.com/embed/Va224_Y89Cc"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        
+        
+                
+              </div>
+              <div class="cards" >
+                <iframe width="100%" height="315"
+                src="https://www.youtube.com/embed/TEy34PJ5DnI"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        
+        
+        
+                
+              </div>
+              <div class="cards" >
+                <iframe width="100%" height="315"
+                src="https://www.youtube.com/embed/5lkWxK-PxNo"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        
+        
+        
+        
+                
+              </div>
+              <div class="cards" >
+                <iframe width="100%" height="315"
+                src="https://www.youtube.com/embed/Wt5342N0dPE"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        
+        
+        
+        
+        
+                
+              </div>
+              <div class="cards" >
+                <iframe width="100%" height="315"
+                src="https://www.youtube.com/embed/ikkp_V2tyrI"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        
+        
+        
+        
+        
+        
+                
+              </div>
+              
+            </div>
+             
+            </div>
+            
+      
+         
+          </section>
+    <!-------------------------------------------------------------Contact------------------------------------------------------------------->
+
+    <section id="contact" class="contact">
+      <h2 data-aos="fade-down-right">Contact</h2>
+      <div class="line"></div>
+
+      <div class="container">
+        <div data-aos="flip-left" class="left">
+          <h3>What’s your story? Get in touch</h3>
+          <p>
+            Always available for freelancing if the right project comes along,
+            Feel free to contact me.
+          </p>
+          <p><i class="bx bx-envelope"></i>3b.youssef@gmail.com</p>
+          <p><i class="bx bx-phone"></i>+2126-87-11-44-38</p>
+        </div>
+        <div data-aos="flip-right" class="right">
+          <form action="">
+            <h3>Say Something</h3>
+            <div class="form1-2">
+              <input type="text" placeholder="Name *" />
+              <input type="text" placeholder="Email *" />
+            </div>
+            <div>
+              <input type="text" placeholder="Subject" name="" id="" />
+            </div>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your message *"
+            ></textarea>
+
+            <button>Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------- Header-mobile --------------------------------------->
+
+    <menu class="header-mobile">
+      <ul id="nav">
+        <li>
+          <a href="#home" class="active"><i class="ri-home-4-line"></i>HOME</a>
+        </li>
+        <li>
+          <a href="#aboutme"><i class="ri-user-3-line"></i>ABOUT ME</a>
+        </li>
+        <li>
+          <a href="#services"><i class="ri-briefcase-line"></i>SERVICES</a>
+        </li>
+        <li>
+          <a href="#portfolio"><i class="ri-folder-line"></i>PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="#contact"><i class="ri-contacts-book-line"></i>CONTACT</a>
+        </li>
+      </ul>
+    </menu>
+
+    <script>
+      let cv = document.getElementById("download");
+
+      cv.addEventListener("click", function () {
+        window.location.href = "Youssef Ababou cv Rabat.pdf";
+      });
+    </script>
+
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/55fb3991e6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
